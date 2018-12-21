@@ -29,7 +29,7 @@ def main():
         results.append(km.fit(data, random_centroids))          #comment this for without pca
         # results.append(km.fit(pca_data, random_centroids))    #comment this for with pca
     plt.plot(results, list(range(2, 11)))
-    plt.show()
+    # plt.show()
     plt.savefig('k_means.png')
 
 
